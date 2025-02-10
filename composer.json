@@ -1,0 +1,21 @@
+{
+    "name": "Dm1tra/cache-library",
+    "description": "A simple caching library for PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arthur Dzmitrakou",
+            "email": "office@supports.by"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "CacheLibrary\\": "src/"
+        }
+    },
+    "require": {
+        "ext-redis": "*",
+        "ext-memcached": "*"
+    }
+}
