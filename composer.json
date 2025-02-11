@@ -14,8 +14,9 @@
             "CacheLibrary\\": "src/"
         }
     },
-    "require": {
-        "ext-redis": "*",
-        "ext-memcached": "*"
+    "require": {},
+    "suggest": {
+        "ext-redis": "Required for Redis cache support.",
+        "ext-memcached": "Required for Memcached cache support."
     }
 }
