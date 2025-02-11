@@ -3,7 +3,7 @@
 ## Installation
 
 ```html
-composer require Dm1tra/cache-library
+composer require dm1tra/cache-library
 ```
 Usage
 > File Backend
